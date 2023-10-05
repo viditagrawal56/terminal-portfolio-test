@@ -8,7 +8,7 @@ import ReactGA from "react-ga4";
 
 ReactGA.initialize("G-5YKNMDXWZY");
 
-ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+ReactGA.send({ hitType: "pageview", page: "/" });
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
