@@ -6,7 +6,7 @@ import { Analytics } from "@vercel/analytics/react";
 import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 import ReactGA from "react-ga4";
 
-ReactGA.initialize("G-6K6CDW69VS");
+ReactGA.initialize("G-5YKNMDXWZY");
 
 ReactGA.send({ hitType: "pageview", page: window.location.pathname });
 
